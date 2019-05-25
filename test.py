@@ -1,5 +1,6 @@
+# - *- coding: utf- 8 - *-
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
-updater = Updater(token='887166887:AAG8EZo--CWg1KhkwxSbe_Dg_jRcJ8DJ4Po')
+
 
 
 def start(bot,update):
@@ -7,7 +8,7 @@ def start(bot,update):
 
 def main():
     # Create Updater object and attach dispatcher to it
-    updater = Updater(TOKEN)
+    updater = Updater(token='887166887:AAG8EZo--CWg1KhkwxSbe_Dg_jRcJ8DJ4Po')
     dispatcher = updater.dispatcher
     print("Bot started")
 
